@@ -136,6 +136,7 @@ export default function UsersTab() {
       </div>
 
       {/* 📋 USERS TABLE */}
+      <div className="table-wrapper">
       <table>
         <thead>
           <tr>
@@ -156,6 +157,7 @@ export default function UsersTab() {
           ))}
         </tbody>
       </table>
+      </div>
     </>
   );
 }
